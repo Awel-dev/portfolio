@@ -13,15 +13,15 @@ export default function projectcard({data}) {
       </div>
       <div className='mt-6 mx-6 flex flex-wrap '>
    {data.stack.map((tech, index) => (
-    <span key={index} className="mr-3 my-2 bg-gray-700 px-2 py-1 border border-gray-500  ">
+    <span key={index} className="mr-3 my-2 bg-gray-700 px-2 py-1 border border-gray-500 rounded  ">
       {tech}
     </span>
      ))}
    </div>  
-   <div className=' my-8 ml-6 mr-4 flex gap-5 xl:mr-10 xl:gap-6'> 
-    <a href={data.detail} target='_blank' className=' text-center w-full border bg-[#1ea297] border-gray-400 py-2 px-15 hover:scale-105 transition duration-300 md:px-5 font-semibold hover:text-black'>View Detail</a>
-    <a href={data.live} target='_blank' className='pt-3 px-2 border text-center border-[#1ea297] shadow-sm shadow-emerald-300 hover:scale-110 transition duration-300'><GoArrowUpRight size={20}/></a>
-    <a href={data.github} target='_blank' className='py-3 px-2 border text-center border-[#1ea297] shadow-sm shadow-emerald-300 hover:scale-110 transition duration-300'><IoLogoGithub /></a>
+   <div className=' my-8 ml-2 sm:ml-6 mr-4 flex gap-4 xl:mr-10 xl:gap-6'> 
+    <a href={data.detail} target='_blank' className=' text-center w-full border bg-[#1ea297] border-gray-400 py-2 px-5 text-sm sm:text-[16px]  sm:px-15 hover:scale-105 transition duration-300 md:px-5 font-semibold hover:text-black'>View Detail</a>
+    <a href={data.live} target='_blank' className='pt-2 px-2 border text-center border-[#1ea297] shadow-sm shadow-emerald-300 hover:scale-110 transition duration-300'><GoArrowUpRight size={20}/></a>
+    <a href={data.github} target='_blank' className='py-2 px-2 border text-center border-[#1ea297] shadow-sm shadow-emerald-300 hover:scale-110 transition duration-300'><IoLogoGithub /></a>
    </div>
     </div>
   )

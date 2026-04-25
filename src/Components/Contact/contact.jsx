@@ -49,7 +49,7 @@ const contact = () => {
 
         <div className='border mx-8 px-4 py-3 text-gray-400 mb-10 text-center md:w-[60%] border-gray-600 shadow-sm shadow-gray-600 hover:border-[#366f73] hover:shadow-[#366f73]'>
             <h1 className='flex items-center text-center justify-center gap-1 text-white font-bold text-lg mb-2 '><span className='text-[#0bce83]'><GoDotFill size={22}/></span> Currently Available For Work</h1>
-            <h2 className='text-[16px] font-semibold font-mono '>I'm currently open to new opportunities and exciting projects. 
+            <h2 className='text-[14px] sm:text-[16px] font-semibold font-sans '>I'm currently open to new opportunities and exciting projects. 
                 Whether you need a full-time engineer, a freelance consultant,
                  or just want to chat about tech, feel free to reach out!</h2>
         </div>
@@ -57,13 +57,13 @@ const contact = () => {
       
        <div className='flex flex-col items-center justify-center mt-15 mb-15'>
         <h1 className='font-bold text-3xl font-serif'>AS<span className='text-[#1ea297] text-4xl'>.</span></h1>
-        <div className='mb-5 mt-3 text-gray-300 text-sm font-semibold'>
-            <a href="#home" className='my-4 mx-2 md:mx-5 hover:text-[#1ea297] hover:underline transition duration-300 '>Home</a>
-            <a href="#about" className='my-4 mx-2 md:mx-5 hover:text-[#1ea297] hover:underline transition duration-300 '>About</a>
-            <a href="#projects" className='my-4 mx-2 md:mx-5 hover:text-[#1ea297] hover:underline transition duration-300 '>Projects</a>
-            <a href="#stacks" className='my-4 mx-2 md:mx-5 hover:text-[#1ea297] hover:underline transition duration-300 '>Teck Specs</a>
-            <a href="#approach" className='my-4 mx-2 md:mx-5 hover:text-[#1ea297] hover:underline transition duration-300 '>Approach</a>
-            <a href="#contact" className='my-4 mx-2 md:mx-5  hover:text-[#1ea297] hover:underline transition duration-300 '>Contact</a>
+        <div className='mb-5 mt-3 text-gray-400 text-sm font-semibold flex flex-wrap justify-center'>
+            <a href="#home" className='my-2 mx-2.5 md:mx-5 hover:text-[#1ea297] hover:underline transition duration-300 '>Home</a>
+            <a href="#about" className='my-2 mx-2.5 md:mx-5 hover:text-[#1ea297] hover:underline transition duration-300 '>About</a>
+            <a href="#projects" className='my-2 mx-2.5 md:mx-5 hover:text-[#1ea297] hover:underline transition duration-300 '>Projects</a>
+            <a href="#stacks" className='my-2 mx-2.5 md:mx-5 hover:text-[#1ea297]  hover:underline transition duration-300 '>Teck Specs</a>
+            <a href="#approach" className='my-2 mx-2.5 md:mx-5 hover:text-[#1ea297]  hover:underline transition duration-300 '>Approach</a>
+            <a href="#contact" className='my-2 mx-2.5 md:mx-5  hover:text-[#1ea297] hover:underline transition duration-300 '>Contact</a>
         </div>
         <div className='flex gap-10 text-gray-300'>
          <a href="https://github.com/awel-dev" target="_blank"> <div className='p-2 bg-[#142828] hover:text-[#1ea297] hover:bg-[#223434] transition duration-200 hover:scale-105'><FaGithub size={20}></FaGithub></div></a>

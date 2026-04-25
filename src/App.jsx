@@ -9,7 +9,7 @@ import Contact from './Components/Contact/contact';
 
 function App() {
   return (
-    <div className="min-h-screen text-white flex flex-col bg-[#0b0f12] min-w-full overflow-x-hidden">
+    <div className="min-h-screen text-white flex flex-col bg-[#0b0f12] min-w-full overflow-x-hidden pt-20">
       <Header />
       <Home />
       <About />

@@ -18,8 +18,8 @@ import { FaCogs } from "react-icons/fa";
 
 const Header = () => {
   const [open,setOpen]=useState(false)
-  return (<header className='sticky top-0 z-50 scroll-smooth'>
-    <div className=' z-50 min-w-full flex items-center justify-between p-4 bg-black/80 text-gray-300 text-sm font-semibold'>
+  return (<header className='fixed top-0 left-0 right-0 z-50 w-full scroll-smooth'>
+    <div className='z-50 w-full flex items-center justify-between p-4 bg-black/80 text-gray-300 text-sm font-semibold'>
       <div className='rounded-2xl p-1 bg-gray-900 hover:bg-[#01332d]'> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=awelsuda278@gmail.com" target="_blank" className="flex items-center gap-2"><img className='w-8 h-8 rounded-4xl' src={IMG} alt="my photo" /><span className='text-xl font-semibold font-serif'>AS<span className='text-emerald-500 text-xl'>.</span></span> </a></div>
 
     <div className='hidden md:flex gap-4 lg:w-[70%] mr-2 lg:gap-8 xl:gap-16'>
@@ -48,7 +48,7 @@ const Header = () => {
     </div>
     {
       open && (
-         <div className="fixed top-18 left-1/2 -translate-x-1/2 w-[90%] max-w-sm bg-black/50 z-50 flex flex-col justify-center gap-4 text-lg font-semibold items-center text-gray-400 py-8 rounded-b-2xl border-t-0 border border-gray-700 px-4">
+         <div className="fixed top-16 left-1/2 -translate-x-1/2 w-[90%] max-w-sm bg-black/50 z-50 flex flex-col justify-center gap-4 text-lg font-semibold items-center text-gray-400 py-8 rounded-b-2xl border-t-0 border border-gray-700 px-4">
           <a href="#home" className=' w-full flex items-center justify-center gap-1 border border-gray-700 rounded-xl py-0.5 bg-gray-900 hover:text-[#1ea297] transition duration-300'><MdOutlineHome size={20}/>
           <span > <a href="#home">Home</a> </span></a>
 

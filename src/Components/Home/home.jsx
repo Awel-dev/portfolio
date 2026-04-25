@@ -15,18 +15,19 @@ import { MdOutlineMail } from "react-icons/md";
 import { BsTwitterX } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { BiLogoFirebase } from "react-icons/bi";
 
 const home = () => {
   return (
     <div className='lg:flex items-center justify-between gap-4 p-4 m-6' id='home'>
 
-      <div className=' w-[90%] mb-10 ml-4 text-center flex flex-col justify-center items-center '>
+      <div className=' w-[90%] mb-10 ml-3 sm:ml-5 text-center flex flex-col justify-center items-center '>
         <div><img src={laptop} alt="laptop" /></div>
         <div className='text-white flex items-center justify-center gap-1'><GoDotFill className='text-green-500'/><span className='font-semibold'>Available for work</span></div>
       </div>
 
 
-      <div className='text-white ml-5'>
+      <div className='text-white ml-1 sm:ml-4'>
         <div className='mb-6 font-bold text-4xl ]'>
             <h3>Hi, I'm </h3>
             <h3 className=' text-[#1ea297]' >Awel Suda Kamil</h3>
@@ -61,13 +62,15 @@ const home = () => {
 
             <div className='flex items-center gap-0.5 px-2 py-1 border border-gray-400 rounded-xl bg-gray-800'>
                 <FaNodeJs /> <span>Node.js</span></div>
+            <div className='flex items-center gap-0.5 px-2 py-1 border border-gray-400 rounded-xl bg-gray-800'>
+                <BiLogoFirebase /> <span>Firebase</span></div>
 
         </div>
-        <div className='mt-8 p-4 flex items-center gap-4'>
-        <a href="#projects" className='bg-[#1ea297] hover:bg-[#11171c] hover:border-[#1ea297] border border-[#1ea297] hover:text-white text-black font-bold py-1 px-1 rounded flex items-center gap-1 
-        transition-colors duration-500 md:text-[16px]'>View My Work <IoIosArrowForward className='display-inline'/></a>
-         <a href="#contact" className='bg-[#11171c] border border-[#1ea297] hover:bg-[#1ea297] hover:text-black text-white font-bold py-1 px-4 rounded flex items-center gap-1
-         transition-colors duration-500 md:text-[16px]'>Get In Touch</a>
+        <div className='mt-8 p-2 flex items-center gap-3'>
+        <a href="#projects" className='bg-[#1ea297] hover:bg-[#11171c] hover:border-[#1ea297] border border-[#1ea297] hover:text-white text-black font-bold py-1.5 px-1 rounded flex items-center gap-1 
+        transition-colors duration-500 text-[11px] md:text-[16px]'>View My Work <IoIosArrowForward className='display-inline'/></a>
+         <a href="#contact" className='bg-[#11171c] border border-[#1ea297] hover:bg-[#1ea297] hover:text-black text-white font-bold py-1.5 px-4 rounded flex items-center gap-1
+         transition-colors duration-500 text-[11px] md:text-[16px]'>Get In Touch</a>
         </div>
         
         <div className='mt-4 p-4 flex items-center gap-5 text-gray-400'>
