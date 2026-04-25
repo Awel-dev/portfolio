@@ -5,7 +5,7 @@ import { IoLogoGithub } from "react-icons/io5";
 
 export default function projectcard({data}) {
   return (
-    <div className=' group overflow-hidden mt-20 mb-4 flex flex-col justify-center border border-gray-700 shadow-sm shadow-gray-500 bg-[#11171c]'>
+    <div className=' group overflow-hidden mt-15 mb-4 flex flex-col justify-center border border-gray-700 shadow-sm shadow-gray-500 bg-[#11171c]'>
       <img src={data.imgLink} alt="" className='h-100 md:h-80 group-hover:scale-107 transition-transform duration-700 object-cover' />
       <div className=''>
         <h2 className='mx-6 font-bold text-xl my-4'>{data.title}</h2>

@@ -5,9 +5,9 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function project() {
   return (
-    <div id='projects' className='flex flex-col items-center justify-center mt-10 sm:w-fit mx-12 '>
+    <div id='projects' className='flex flex-col items-center justify-center mt-10 sm:w-fit mx-8  sm:mx-12 '>
         <div className='text-sm text-[#1ea297] mb-5'>FEATURED WORK</div>
-      <div className='text-3xl mx-15 font-semibold font-serif'> <span className='text-[#1ea297]'>Projects that</span> speak for themselves</div>
+      <div className='text-3xl mx-5 sm:mx-15 font-semibold font-serif'> <span className='text-[#1ea297]'>Projects that</span> speak for themselves</div>
       <div className='mt-6 text-gray-400'>A selection of my recent work</div>
       <div className='md:grid md:grid-cols-2 xl:grid xl:grid-cols-3  gap-8'>
       {projectInfo.map((infos)=>(
